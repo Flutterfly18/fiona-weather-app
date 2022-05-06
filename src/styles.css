@@ -1,0 +1,110 @@
+.context {
+  border: 10px solid black;
+  border-radius: 20px;
+  padding: 50px;
+  margin: 20px;
+  background-image: url(images/london.jpg);
+  background-size: cover;
+}
+.tempContext {
+  text-align: center;
+  font-size: larger;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(45, 72, 76, 0.5);
+}
+.descriptionContext {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 50px;
+  padding-bottom: 90px;
+  margin-bottom: 20px;
+  background-color: rgba(45, 72, 76, 0.5);
+}
+.searchContext {
+  position: relative;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(45, 72, 76, 0.5);
+}
+form {
+  padding-bottom: 20px;
+  width: 95%;
+}
+
+.btn-first {
+  background-color: #628ee4 !important;
+  color: aliceblue !important;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+.btn-first:hover {
+  background: white !important;
+  color: #628ee4 !important;
+  border: 1px solid #628ee4 !important;
+}
+.btn-second {
+  background-color: #6c7d9d !important;
+  color: aliceblue !important;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+.btn-second:hover {
+  background: white !important;
+  color: #6c7d9d !important;
+  border: 1px solid #6c7d9d !important;
+}
+
+.forecastContext {
+  padding: 50px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: rgba(45, 72, 76, 0.5);
+}
+.weatherContext {
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px;
+}
+p {
+  color: aliceblue;
+}
+.cityTemp {
+  padding: 5px;
+  font-size: 50px;
+}
+.tempChange {
+  padding: 5px;
+  font-size: large;
+}
+.tempChange a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.cityTempEmoji {
+  display: block;
+  margin-bottom: -25px;
+  font-size: 80px;
+}
+
+.weatherAppTitle {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.weatherAppDate {
+  display: block;
+  margin-top: 30px;
+  text-align: right;
+}
